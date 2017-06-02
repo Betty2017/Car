@@ -5,11 +5,5 @@ public class Plane extends Vehicle
  return "plane fly";}
  
 	
-
-
-
-	
-		
-	}
-
+}
 

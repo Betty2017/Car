@@ -10,7 +10,6 @@ public abstract class Vehicle  {
         return "The vehicle is accelerating";}    
     
    
-    
     public Vehicle () {
            	
     }

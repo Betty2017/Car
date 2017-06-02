@@ -1,25 +1,22 @@
 
-public class Vehicle  {
+public abstract class Vehicle  {
 
+           
+    public String run(){
+    return "The vehicle is running";}
+    public String stop() {
+        return "The vehicle is stopping";}
+    public String accelerate() {
+        return "The vehicle is accelerating";}    
     
-   //  the Vehicle  class has  fields
-       
-    public String start;
-    public String speed;
-    public String stop;    
-    
-    // the Vehicle class has two constructor
+   
     
     public Vehicle () {
            	
     }
-    public Vehicle (String startStart, String startSpeed ,String startStop ) {
+   public String fly() 
+   { return "Plane Fly";}
+   public String flooting()
+   { return "Boot flooting";} 
        
-    	start = startStart;
-        speed = startSpeed;
-        stop = startStop;
-    }
-        
-    
-        
 }

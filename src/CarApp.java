@@ -10,21 +10,16 @@ public class CarApp {
 		
 		c.setSpeed(50);
 		
+		Plane p = new Plane();
+		Boot b = new Boot();
+		
+		System.out.println(p.fly());
+		
 		System.out.println(c.start());	
 		System.out.println(ca.start());
 		
-		System.out.println(c.accelerate());
-		System.out.println(ca.accelerate());
 		
-		System.out.println(ca.emission());
-		System.out.println(ca.eTest());
-		
-		System.out.println(c.speed());
-		System.out.println(ca.speed());
-		
-		System.out.println(c.stop());
-		System.out.println(ca.passed());
-		
+		System.out.println(b.flooting());
 
 }
 }
